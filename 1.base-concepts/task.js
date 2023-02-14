@@ -5,9 +5,6 @@ function solveEquation(a, b, c) {
   let sqrtOne;
   let sqrtTwo;
 
-  if (d < 0) {
-    console.log('Корней нет!');
-  } 
   if (d === 0) {
     let sqrtOne = -b/(2*a);
     arr.push(sqrtOne);
