@@ -241,7 +241,7 @@ class Player {
 		this.tryAttack(this.playerEnemy);
 	};
 
-	isDead() {
+	isDead(this.life == 0) {
 		return this.life == 0;
 	};
 }

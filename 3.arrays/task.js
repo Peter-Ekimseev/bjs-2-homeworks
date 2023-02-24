@@ -1,6 +1,5 @@
 function compareArrays(arr1, arr2) {
-  const resultCompareArrays = arr1.length === arr2.length && arr1.every((element,i) => element === arr2[i]);
-  return console.log(resultCompareArrays);
+  return arr1.length === arr2.length && arr1.every((element, i) => element === arr2[i]);
 }
 
 function getUsersNamesInAgeRange(users, gender) {
